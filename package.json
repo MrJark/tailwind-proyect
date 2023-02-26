@@ -4,7 +4,8 @@
   "description": "own proyect where you can train with anyone anywhere and its name is ovisclub",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tw:build": "tailwind -i ./src/css/tailwind.css -o ./public/css/tailwind.css"
   },
   "repository": {
     "type": "git",
