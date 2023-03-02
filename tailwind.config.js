@@ -15,14 +15,21 @@ module.exports = {
       },
       backgroundColor: theme => ({
         ...theme('colors'),
-        'primary'; '#09AEB3',
-        'secondary'; '#FF01B0',
-        'terciary'; '#FFDC19',
-        'black'; '#0B0A0B',
-        'white'; '#F9F9F9',
-        'background-dark'; '#191D1D',
-        'background-light'; '#F3FFFF',
-      })
+        'primary': '#09AEB3',
+        'secondary': '#FF01B0',
+        'terciary': '#FFDC19',
+        'black': '#0B0A0B',
+        'white': '#F9F9F9',
+        'background-dark': '#191D1D',
+        'background-light': '#F3FFFF',
+      }),
+      textColor: {
+        'primary': '#09AEB3',
+        'secondary': '#FF01B0',
+        'terciary': '#FFDC19',
+        'black': '#0B0A0B',
+        'white': '#F9F9F9',
+      }
     },
   },
   variants: {
