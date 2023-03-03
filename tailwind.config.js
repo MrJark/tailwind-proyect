@@ -4,7 +4,7 @@ module.exports = {
   content: ["./src/**/*.{html,js}", "./public/*.{html,js}"],  
   theme: {
     fontFamily: {
-      K2D: ['K2D', 'sans-serif'],
+      K2D: ['K2D'],
     },
     textColor: {
       'primary': '#09AEB3',
