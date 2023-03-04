@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.Card {
+    @apply w-48 h-64 shadow-md rounded-lg
+}
+.Card-img {
+    @apply w-full h-3/5 rounded-t-lg bg-cover
+}
+.Card-text-prima {
+    @apply  w-full h-2/5 bg-primary rounded-b-lg
+}

@@ -12,6 +12,10 @@ module.exports = {
       'terciary': '#FFDC19',
       'black': '#0B0A0B',
       'white': '#F9F9F9',
+      'grey-100': '#F3F4F6',
+      'grey-300': '#D1D5DB',
+      'grey-500': '#6B7280',
+      'grey-700': '#374151',
     },
     backgroundColor: theme => ({
       ...theme('colors'),
@@ -24,6 +28,7 @@ module.exports = {
       'background-light': '#F3FFFF',
     }),
     extend: {
+      backgroundImage: {
         'madrid': "url('/public/img/madrid.jpeg')",
         'barcelona': "url('/public/img/barcelona.jpeg')",
         'galicia': "url('/public/img/galicia.jpeg')",
@@ -31,7 +36,8 @@ module.exports = {
         'murcia': "url('/public/img/murcia.jpeg')",
         'sevilla': "url('/public/img/sevilla.jpeg')",
         'valencia': "url('/public/img/valencia.jpeg')",    
-    },
+      },
+    }
   },
   plugins: [
   ],
