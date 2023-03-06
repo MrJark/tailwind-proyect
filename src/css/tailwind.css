@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .Card {
-    @apply w-48 h-64 shadow-md rounded-lg
+    @apply w-48 h-64 shadow-md rounded-lg flex-none
 }
 .Card-img {
     @apply w-full h-3/5 rounded-t-lg bg-cover

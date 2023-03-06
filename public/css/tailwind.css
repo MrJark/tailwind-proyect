@@ -517,16 +517,8 @@ video {
   position: absolute;
 }
 
-.ml-4 {
-  margin-left: 1rem;
-}
-
-.mt-20 {
-  margin-top: 5rem;
-}
-
-.mr-4 {
-  margin-right: 1rem;
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .flex {
@@ -537,12 +529,24 @@ video {
   height: 75%;
 }
 
+.h-72 {
+  height: 18rem;
+}
+
 .h-full {
   height: 100%;
 }
 
 .h-screen {
   height: 100vh;
+}
+
+.h-2\/5 {
+  height: 40%;
+}
+
+.w-auto {
+  width: auto;
 }
 
 .w-full {
@@ -557,14 +561,45 @@ video {
   align-items: center;
 }
 
-.space-y-20 > :not([hidden]) ~ :not([hidden]) {
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-y-12 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
-  margin-top: calc(5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(5rem * var(--tw-space-y-reverse));
+  margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(3rem * var(--tw-space-y-reverse));
+}
+
+.overflow-scroll {
+  overflow: scroll;
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+.overflow-x-scroll {
+  overflow-x: scroll;
+}
+
+.overscroll-x-auto {
+  overscroll-behavior-x: auto;
+}
+
+.overscroll-x-contain {
+  overscroll-behavior-x: contain;
 }
 
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded-b-lg {
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
 }
 
 .bg-background-light {
@@ -572,12 +607,38 @@ video {
   background-color: rgb(243 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-background-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(25 29 29 / var(--tw-bg-opacity));
+}
+
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(9 174 179 / var(--tw-bg-opacity));
+}
+
+.bg-barcelona {
+  background-image: url('/public/img/barcelona.jpeg');
+}
+
 .bg-madrid {
   background-image: url('/public/img/madrid.jpeg');
 }
 
+.bg-valencia {
+  background-image: url('/public/img/valencia.jpg');
+}
+
 .p-3 {
   padding: 0.75rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .px-4 {
@@ -607,6 +668,11 @@ video {
   font-family: K2D;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -615,6 +681,10 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .text-black {
@@ -632,6 +702,21 @@ video {
   color: rgb(255 1 176 / var(--tw-text-opacity));
 }
 
+.text-grey-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(249 249 249 / var(--tw-text-opacity));
+}
+
+.text-grey-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
 .shadow-sm {
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
@@ -646,6 +731,7 @@ video {
 .Card {
   height: 16rem;
   width: 12rem;
+  flex: none;
   border-radius: 0.5rem;
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);

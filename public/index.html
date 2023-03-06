@@ -10,14 +10,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="bg-background-light">
     <nav></nav>
     <div id="tab_bar"></div>
     <section class="w-full h-screen">
         <div id="home">
-            <div class="w-full h-3/4">
-                <div class="w-full h-full flex flex-col absolute space-y-20 py-4 items-center ">
-                    <input class="bg-background-light outline-none p-3 rounded-full shadow-sm" placeholder="Search you city" type="search" name="" type="">
+            <div class="w-full h-fulls">
+                <div class="w-full h-full flex flex-col absolute space-y-12 py-4 items-center ">
+                    <input class="bg-background-light outline-none p-2 rounded-full shadow-sm" placeholder="Search you city" type="search" name="" type="">
                     <button class="text-base py-1 px-4 rounded-full bg-background-light text-secondary shadow-sm">
                         Train with Us
                     </button>
@@ -28,21 +28,45 @@
                 
             </div>
         </div>
-        <div class="mt-20 ml-4 mr-4 flex" id="boxes">
-           <div class="Card">
-                <div class="Card-img bg-madrid"></div>
-                <div class="Card-text-prima">
-                    <p class="text-black font-k2d text-bold text-xl pl-4 pt-2 ">Madird</p>
-                    <p class="text-grey-700 font-K2D text-base pl-4">CrossFit Center</p>
-                </div>
-            </div> 
-           <div class="Card">
-                <div class="Card-img bg-madrid"></div>
-                <div class="Card-text-prima">
-                    <p class="text-black font-k2d text-bold text-xl pl-4 pt-2 ">Madird</p>
-                    <p class="text-grey-700 font-K2D text-base pl-4">CrossFit Center</p>
-                </div>
-            </div> 
+        <div class="p-6" id="boxes">
+            <p class="text-secondary text-3xl font-K2D font-semibold">Our Boxes</p>
+            <div class="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-4">
+                <div class="Card">
+                    <div class="Card-img bg-madrid"></div>
+                    <div class="w-full h-2/5 bg-primary rounded-b-lg">
+                        <p class="text-black font-K2D text-bold text-xl pl-4 pt-2 ">Madrid</p>
+                        <p class="text-grey-700 font-K2D text-base pl-4">CrossFit Center</p>
+                    </div>
+                </div> 
+                <div class="Card">
+                    <div class="Card-img bg-barcelona"></div>
+                    <div class="w-full h-2/5 bg-background-dark rounded-b-lg">
+                        <p class="text-white font-K2D text-bold text-xl pl-4 pt-2 ">Barcelona</p>
+                        <p class="text-grey-300 font-K2D text-base pl-4">CrossFit X</p>
+                    </div>
+                </div> 
+                <div class="Card">
+                    <div class="Card-img bg-valencia"></div>
+                    <div class="w-full h-2/5 bg-primary rounded-b-lg">
+                        <p class="text-black font-K2D text-bold text-xl pl-4 pt-2 ">Valencia</p>
+                        <p class="text-grey-700 font-K2D text-base pl-4">CrossFit Middle</p>
+                    </div>
+                </div> 
+                <div class="Card">
+                    <div class="Card-img bg-barcelona"></div>
+                    <div class="w-full h-2/5 bg-background-dark rounded-b-lg">
+                        <p class="text-white font-K2D text-bold text-xl pl-4 pt-2 ">Murcia</p>
+                        <p class="text-grey-300 font-K2D text-base pl-4">CrossFit Okami</p>
+                    </div>
+                </div> 
+                <div class="Card">
+                    <div class="Card-img bg-valencia"></div>
+                    <div class="w-full h-2/5 bg-primary rounded-b-lg">
+                        <p class="text-black font-K2D text-bold text-xl pl-4 pt-2 ">Alicante</p>
+                        <p class="text-grey-700 font-K2D text-base pl-4">CrossFit Black</p>
+                    </div>
+                </div> 
+            </div>
         </div>
         <div id="services"></div>
         <div id="faqs"></div>

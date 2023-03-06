@@ -35,7 +35,7 @@ module.exports = {
         'alicante': "url('/public/img/alicante.jpeg')",
         'murcia': "url('/public/img/murcia.jpeg')",
         'sevilla': "url('/public/img/sevilla.jpeg')",
-        'valencia': "url('/public/img/valencia.jpeg')",    
+        'valencia': "url('/public/img/valencia.jpg')",    
       },
     }
   },
